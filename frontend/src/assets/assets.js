@@ -27,6 +27,7 @@ import p_img23 from './car9a.webp'
 import p_img24 from './car9b.webp'
 
 
+
 // import p_img25 from './p_img25.png'
 // import p_img26 from './p_img26.png'
 // import p_img27 from './p_img27.png'
@@ -58,6 +59,7 @@ import p_img24 from './car9b.webp'
 
 
 import logo from './logo.png'
+import carlogo from './carlogo.webp'
 import hero_img from './hero_img.png'
 import cart_icon from './cart_icon.png'
 import bin_icon from './bin_icon.png'
@@ -79,6 +81,7 @@ import cross_icon from './cross_icon.png'
 export const assets = {
     logo,
     hero_img,
+    carlogo,
     cart_icon,
     dropdown_icon,
     exchange_icon,
