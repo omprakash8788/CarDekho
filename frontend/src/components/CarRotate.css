@@ -1,0 +1,28 @@
+.car-move-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50vh;
+    overflow: hidden; 
+    background-color:transparent;
+    position: relative;
+  }
+  
+  .moving-car {
+    width:fit-content; 
+    position: absolute; 
+    animation: move-left-right 6s linear infinite; 
+  }
+  
+  @keyframes move-left-right {
+    0% {
+      transform: translateX(-200px); 
+    }
+    50% {
+      transform: translateX(50vw); 
+    }
+    100% {
+      transform: translateX(100vw); 
+    }
+  }
+  
