@@ -390,7 +390,8 @@ export const products = [
         image: [p_img1],
         category: "Sedan",
         releaseDate: 1716634345448,
-        featured: true
+        featured: true,
+        bestseller: true
     },
     {
         _id: "car002",
@@ -400,7 +401,8 @@ export const products = [
         image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
         category: "SUV",
         releaseDate: 1716621345448,
-        featured: true
+        featured: true,
+        bestseller: true
     },
     {
         _id: "car003",
@@ -410,7 +412,8 @@ export const products = [
         image: [p_img3],
         category: "Hatchback",
         releaseDate: 1716234545448,
-        featured: true
+        featured: true,
+        bestseller: true
     },
     {
         _id: "car004",
@@ -420,7 +423,8 @@ export const products = [
         image: [p_img4],
         category: "Convertible",
         releaseDate: 1716621345448,
-        featured: true
+        featured: true,
+        bestseller: true
     },
     {
         _id: "car005",
@@ -430,7 +434,8 @@ export const products = [
         image: [p_img5],
         category: "Luxury",
         releaseDate: 1716622345448,
-        featured: true
+        featured: true,
+        bestseller: false
     },
     {
         _id: "car006",
@@ -440,7 +445,9 @@ export const products = [
         image: [p_img6],
         category: "Electric",
         releaseDate: 1716623423448,
-        featured: true
+        featured: true,
+        bestseller: false
+
     },
     {
         _id: "car007",
@@ -450,7 +457,9 @@ export const products = [
         image: [p_img7],
         category: "Truck",
         releaseDate: 1716621542448,
-        featured: false
+        featured: false,
+        bestseller: false
+
     },
     {
         _id: "car008",
@@ -460,7 +469,9 @@ export const products = [
         image: [p_img8],
         category: "Sports",
         releaseDate: 1716622345448,
-        featured: false
+        featured: false,
+        bestseller: false
+
     },
     {
         _id: "car009",
@@ -470,7 +481,9 @@ export const products = [
         image: [p_img9],
         category: "Van",
         releaseDate: 1716621235448,
-        featured: false
+        featured: false,
+        bestseller: true
+
     },
     {
         _id: "car010",
@@ -480,6 +493,8 @@ export const products = [
         image: [p_img10],
         category: "Hybrid",
         releaseDate: 1716622235448,
-        featured: false
+        featured: false,
+        bestseller: true
+
     }
 ];
