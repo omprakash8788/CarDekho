@@ -11,11 +11,13 @@ import PlaceOrder from './pages/PlaceOrder'
 import Orders from './pages/Orders'
 import Navbar from './components/Navbar'
 import CarRotate from './components/CarRotate'
+import Search from './components/Search'
 
 const App = () => {
   return (
     <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
       <Navbar/>
+      <Search/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         {/* <Route path='/carroate' element={}/> */}
