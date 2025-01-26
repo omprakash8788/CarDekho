@@ -381,7 +381,7 @@ export const assets = {
 
 // ]
 
-export const products = [
+export const products = [ 
     {
         _id: "car001",
         model: "Sedan A1",
